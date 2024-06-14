@@ -119,6 +119,7 @@ def process_records(catalog, #pylint: disable=too-many-branches
             # Transform record for Singer.io
             with Transformer(pre_hook=transform_pre_hook) as transformer:
                 import json
+                print(record)
                 transformed_record = transformer.transform(
                     record,
                     schema,
