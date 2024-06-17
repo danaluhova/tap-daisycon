@@ -6,7 +6,7 @@ This tap retrieves data from the [Daisycon API](https://www.daisycon.com/en/deve
 
 
 
-Config file **JSON** structure:
+**config.json** file structure:
 ```
 {
     "username": "---@mail.com",
